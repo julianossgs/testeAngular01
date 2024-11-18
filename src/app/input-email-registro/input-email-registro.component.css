@@ -1,0 +1,14 @@
+.inputForm{
+  width: 317px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #363636;
+}
+
+@media(min-width: 992px){
+  .inputForm{
+    width: 350px;
+    height: 69px;
+
+  }
+}

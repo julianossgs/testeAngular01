@@ -1,0 +1,21 @@
+.btnLogin{
+  width: 317px;
+  height: 42px;
+  border-radius: 8px;
+  background-color: #212121;
+  cursor: pointer;
+}
+
+.btnLogin:hover{
+  color: #fff;
+  background-color: #333333;
+  font-weight: 500;
+}
+
+@media(min-width: 992px){
+  .btnLogin{
+    width: 350px;
+    height: 69px;
+
+  }
+}

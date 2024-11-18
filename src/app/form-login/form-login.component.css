@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.login{
+  width: 400px;
+  height: 465px;
+  border-radius: 4px;
+  color: #fff;
+  border: 1px solid #e6e6e6;
+  position:relative;
+  margin: 50px 20px 20px 50px;
+  padding: 50px 5px 20px 14px;
+}
+
+.title h1{
+   font-size: 23px;
+   color:#292929;
+   font-family: 'Plus Jakarta Sans',sans-serif;
+   width: 376px;
+   height: 38px;
+   font-weight: 700;
+
+}
+
+.title a{
+  font-size: 16px;
+  color:#545454;
+  line-height: 20.2px;
+  font-weight: 400;
+}
+
+.formLogin a{
+  font-family: 'Inter',sans-serif;
+  width: 140px;
+  height: 15px;
+  font-weight: 400;
+  line-height: 19.36px;
+  font-size: 15px;
+  color: #4f4f4f;
+
+}
+
+
+/*medias*/
+@media (min-width: 992px) {
+
+  .login{
+    width: 420px;
+    height: 460px;
+    margin: 80px 100px 20px -200px;
+    padding: 23px 18px 20px 30px;
+
+  }
+
+
+  .title h1{
+    font-size: 28px;
+
+    line-height: 37.8px;
+
+
+ }
+
+ .title a{
+   font-size: 18px;
+   line-height: 25.2px;
+   width: 151px;
+ }
+
+ .formLogin a{
+   font-weight: 400;
+   line-height: 19.36px;
+   font-size: 16px;
+
+ }
+
+ .image{
+  width: 50vw;
+  height: 100vh;
+}
+
+
+}
+
+
